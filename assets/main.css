@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Arvo:700");
+
+	body {
+	background-color: #de99ef;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	color: #2C3E50;
+	line-height: 37px;
+	margin-top: 100px;
+	padding: 20px;
+	}
+
+	#titulo h2 {
+		font-family: 'Arvo', serif;
+		font-weight: 700;
+		font-size: 300%;
+		color: #180b1c;
+		text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
+	}
+
+	div#alejandram{
+		text-align: justify;
+    	margin-bottom: 2em;
+	}
+
+	div#paulinar{
+		text-align: justify;
+    	margin-bottom: 2em;
+	}
+
+	div#susanao{
+		text-align: justify;
+    	margin-bottom: 2em;
+	}
+
+	div#martinac{
+		text-align: justify;
+    	margin-bottom: 2em;
+	}
+
+	div#perlad{
+		text-align: justify;
+    	margin-bottom: 2em;
+	}
+
+	div#joceling{
+		text-align: justify;
+    	margin-bottom: 2em;
+	}
+
+	div#valentinar{
+		text-align: justify;
+    	margin-bottom: 2em;
+	}
+
+	div#valentinas{
+		text-align: justify;
+    	margin-bottom: 2em;
+	}
+
+	div#contenedor-fotoale img{
+    width: 83px;
+    float: left;
+    padding: 1%;
+}
+	
