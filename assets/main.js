@@ -1,8 +1,8 @@
 
-function MiembroSquad (nombreCompleto, edad, hobbies){
+function MiembroSquad (nombreCompleto, edad, poder){
 	this.nombreCompleto = nombreCompleto;
 	this.edad = edad;
-	this.hobbies = hobbies;
+	this.poder = poder;
 
 }
 
@@ -14,6 +14,7 @@ var fa = new MiembroSquad("perla diaz", 31, ["cine", "reir mucho", "Amar los gat
 var jocelin = new MiembroSquad("jocelin grez",22, ["usar gorrito", "tener frio", "vender juegos"]);
 var valentina = new MiembroSquad("valentina rodriguez", 25, ["odiar al mundo", "Escuchar música", "hacer panqueques"]);
 var vales = new MiembroSquad("valentina spuler", 21, ["tomar tecito", "proclastinar", "ver gif de gatitos"]);
+var pauli = new MiembroSquad("paulina huañaco", 20, ["reir y venir abrigada", "comer", "disfrutar su familia"]);
 
 
 //Añadiendo un título
@@ -25,17 +26,18 @@ document.getElementById("titulo").appendChild(elemento);
 
 
 
-//Añadiendo a cada div los datos
+//Añado datos a compañeras
 
 
-var divalejandra = document.getElementById("alejandram").innerHTML += "<strong>Nombre Completo: </strong>" + alejandra.nombreCompleto + "<br><strong> Edad: </strong>" + alejandra.edad + " años" + "<br><strong> Hobbies: </strong><li>" + alejandra.hobbies + "</li>"; 
-var divpaulina = document.getElementById("paulinar").innerHTML += "<strong>Nombre Completo: </strong>" + paulina.nombreCompleto + "<br><strong> Edad: </strong>" + paulina.edad + " años" + "<br><strong> Hobbies: </strong><li>" + paulina.hobbies + "</li>"; 
-var divsusana = document.getElementById("susanao").innerHTML += "<strong>Nombre Completo: </strong>" + susana.nombreCompleto + "<br><strong> Edad: </strong>" + susana.edad + " años" + "<br><strong> Hobbies: </strong><li>" + susana.hobbies + "</li>"; 
-var divmartina = document.getElementById("martinac").innerHTML += "<strong>Nombre Completo: </strong>" + martina.nombreCompleto + "<br><strong> Edad: </strong>" + martina.edad + " años" + "<br><strong> Hobbies: </strong><li>" + martina.hobbies + "</li>"; 
-var divfa = document.getElementById("perlad").innerHTML += "<strong>Nombre Completo: </strong>" + fa.nombreCompleto + "<br><strong> Edad: </strong>" + fa.edad + " años" + "<br><strong> Hobbies: </strong><li>" + fa.hobbies + "</li>"; 
-var divjocelin = document.getElementById("joceling").innerHTML += "<strong>Nombre Completo: </strong>" + jocelin.nombreCompleto + "<br><strong> Edad: </strong>" + jocelin.edad + " años" + "<br><strong> Hobbies: </strong><li>" + jocelin.hobbies + "</li>"; 
-var divvalentina = document.getElementById("valentinar").innerHTML += "<strong>Nombre Completo: </strong>" + valentina.nombreCompleto + "<br><strong> Edad: </strong>" + valentina.edad + " años" + "<br><strong> Hobbies: </strong><li>" + valentina.hobbies + "</li>"; 
-var divvalen = document.getElementById("valentinas").innerHTML += "<strong>Nombre Completo: </strong>" + vales.nombreCompleto + "<br><strong> Edad: </strong>" + vales.edad + " años" + "<br><strong> Hobbies: </strong><li>" + vales.hobbies + "</li>"; 
+var divalejandra = document.getElementById("alejandram").innerHTML += "<strong>Nombre: </strong>" + alejandra.nombreCompleto + "<br><strong> Edad: </strong>" + alejandra.edad + " años" + "<br><strong> Super Poder: </strong><li>" + alejandra.poder + "</li>"; 
+var divpaulina = document.getElementById("paulinar").innerHTML += "<strong>Nombre: </strong>" + paulina.nombreCompleto + "<br><strong> Edad: </strong>" + paulina.edad + " años" + "<br><strong> Super Poder: </strong><li>" + paulina.poder + "</li>"; 
+var divsusana = document.getElementById("susanao").innerHTML += "<strong>Nombre: </strong>" + susana.nombreCompleto + "<br><strong> Edad: </strong>" + susana.edad + " años" + "<br><strong> Super Poder: </strong><li>" + susana.poder + "</li>"; 
+var divmartina = document.getElementById("martinac").innerHTML += "<strong>Nombre: </strong>" + martina.nombreCompleto + "<br><strong> Edad: </strong>" + martina.edad + " años" + "<br><strong> Super Poder: </strong><li>" + martina.poder + "</li>"; 
+var divfa = document.getElementById("perlad").innerHTML += "<strong>Nombre: </strong>" + fa.nombreCompleto + "<br><strong> Edad: </strong>" + fa.edad + " años" + "<br><strong> Super Poder: </strong><li>" + fa.hobbies + "</li>"; 
+var divjocelin = document.getElementById("joceling").innerHTML += "<strong>Nombre: </strong>" + jocelin.nombreCompleto + "<br><strong> Edad: </strong>" + jocelin.edad + " años" + "<br><strong> Super Poder: </strong><li>" + jocelin.poder + "</li>"; 
+var divvalentina = document.getElementById("valentinar").innerHTML += "<strong>Nombre: </strong>" + valentina.nombreCompleto + "<br><strong> Edad: </strong>" + valentina.edad + " años" + "<br><strong> Super Poder: </strong><li>" + valentina.poder + "</li>"; 
+var divvalen = document.getElementById("valentinas").innerHTML += "<strong>Nombre: </strong>" + vales.nombreCompleto + "<br><strong> Edad: </strong>" + vales.edad + " años" + "<br><strong> Super Poder: </strong><li>" + vales.poder + "</li>"; 
+var divpauh = document.getElementById("paulinah").innerHTML += "<strong>Nombre: </strong>" + pauli.nombreCompleto + "<br><strong> Edad: </strong>" + pauli.edad + " años" + "<br><strong> Super Poder: </strong><li>" + pauli.poder + "</li>"; 
 
 
 
@@ -49,14 +51,7 @@ function dejaComentario() {
 }
 
 
-var img = new Image();
-var div = document.getElementById("contenedor-fotoale");
 
-img.onload = function() {
-  div.innerHTML += '<img src="'+'images/ale.png'+'" />';
-};
-
-img.src = 'images/ale.png';
 
 
 
